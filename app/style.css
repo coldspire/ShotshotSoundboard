@@ -35,3 +35,11 @@ body {
 .page-main {
     background-color: hsl(0, 0%, 15%);
 }
+
+.soundboard {
+    list-style-type: none;
+}
+
+.sound {
+    padding: 1rem;
+}
