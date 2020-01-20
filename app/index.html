@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Team Starshot Soundboard</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
-    <header class="page-header">
-        <img class="logo" height="250px" width="100%" src="" 
-            alt="Worth the shot">
-        <h1>Team Starshot Soundboard</h1>
-    </header>
-    <main class="page-main">
-        <ul class="soundboard">
-            <li class="sound">
-                <button id="btnSoundA">Sound A</button>
-                <audio id="audSoundA" preload="auto">
-                    <source src="assets/audio/whistle.mp3" type="audio/mpeg" />
-                </audio>
-            </li>
-            <li class="sound">
-                <button id="btnSoundB">Sound B</button>
-                <audio id="audSoundB" preload="auto">
-                    <source src="assets/audio/whistletune.mp3" type="audio/mpeg" />
-                </audio>
-            </li>
-        </ul>
-    </main>
-    <script type="module" src="modules/main.mjs"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Team Starshot Soundboard</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="page-header">
+            <img
+                class="logo"
+                height="250px"
+                width="100%"
+                src=""
+                alt="Worth the shot"
+            />
+            <h1>Team Starshot Soundboard</h1>
+        </header>
+        <main class="page-main">
+            <ul class="soundboard">
+                <li class="sound">
+                    <button>Whistle</button>
+                    <audio preload>
+                        <source
+                            src="assets/audio/whistle.mp3"
+                            type="audio/mpeg"
+                        />
+                    </audio>
+                </li>
+                <li class="sound">
+                    <button>Sound B</button>
+                    <audio preload loop>
+                        <source
+                            src="assets/audio/whistletune.mp3"
+                            type="audio/mpeg"
+                        />
+                    </audio>
+                </li>
+            </ul>
+        </main>
+        <script type="module" src="modules/main.mjs"></script>
+    </body>
 </html>
