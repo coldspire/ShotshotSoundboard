@@ -22,15 +22,10 @@ const setupAudioPlay = function(soundEl) {
 
     buttonEl.addEventListener("click", event => {
         if (audioEl.dataset.isPlaying === "true") {
-            // Loops are paused,
-            // while non-looping are reset and played again.
-            if (audioEl.loop) {
-                audioEl.pause();
-            } else {
-                audioEl.pause();
-                audioEl.currentTime = 0;
-                audioEl.play();
-            }
+            // Stopping the sound and rewinding to beginning
+            // is least annoying and anticipated by the user.
+            audioEl.pause();
+            audioEl.currentTime = 0;
         } else {
             audioEl.play();
         }
