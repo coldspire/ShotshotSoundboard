@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Team Starshot Soundboard</title>
-        <link href="style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header class="page-header">
-            <img
-                class="logo"
-                height="250px"
-                width="100%"
-                src=""
-                alt="Worth the shot"
-            />
-            <h1>Team Starshot Soundboard</h1>
-        </header>
-        <main class="page-main">
-            <ul class="soundboard">
-                <li class="sound">
-                    <button>Whistle</button>
-                    <audio preload>
-                        <source
-                            src="assets/audio/whistle.mp3"
-                            type="audio/mpeg"
-                        />
-                    </audio>
-                </li>
-                <li class="sound">
-                    <button>Sound B</button>
-                    <audio preload loop>
-                        <source
-                            src="assets/audio/whistletune.mp3"
-                            type="audio/mpeg"
-                        />
-                    </audio>
-                </li>
-            </ul>
-        </main>
-        <script type="module" src="modules/main.mjs"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Team Starshot Soundboard</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="page-header">
+      <img class="logo" height="250px" width="100%" src="" alt="Worth the shot" />
+      <h1>Team Starshot Soundboard</h1>
+    </header>
+    <main class="page-main">
+      <ul class="soundboard">
+        <li class="sound">
+          <button>Riff Loop</button>
+          <audio preload loop>
+            <source src="assets/audio/01_intro-loop.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+        <li class="sound">
+          <button>Heavy Loop</button>
+          <audio preload loop>
+            <source src="assets/audio/06_heavy-loop.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+        <li class="sound">
+          <button>Obsession</button
+          ><audio preload>
+            <source src="assets/audio/02_obsession.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+        <li class="sound">
+          <button>Chorus</button
+          ><audio preload>
+            <source src="assets/audio/03_chorus.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+        <li class="sound">
+          <button>Overloaded</button
+          ><audio preload>
+            <source src="assets/audio/04_overloaded.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+        <li class="sound">
+          <button>Activated</button
+          ><audio preload>
+            <source src="assets/audio/05_activated.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+        <li class="sound">
+          <button>Outro</button
+          ><audio preload>
+            <source src="assets/audio/07_outro.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+      </ul>
+    </main>
+    <script type="module" src="modules/main.mjs"></script>
+  </body>
 </html>
